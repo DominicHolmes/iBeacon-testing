@@ -12,6 +12,7 @@
 		B6FC5B1820782197002AF335 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B6FC5B1620782197002AF335 /* Main.storyboard */; };
 		B6FC5B1A20782199002AF335 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B6FC5B1920782199002AF335 /* Assets.xcassets */; };
 		B6FC5B1D20782199002AF335 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B6FC5B1B20782199002AF335 /* LaunchScreen.storyboard */; };
+		B6FC5B2620782288002AF335 /* CoreLocation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B6FC5B2520782288002AF335 /* CoreLocation.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -22,6 +23,7 @@
 		B6FC5B1920782199002AF335 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		B6FC5B1C20782199002AF335 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		B6FC5B1E20782199002AF335 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		B6FC5B2520782288002AF335 /* CoreLocation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreLocation.framework; path = System/Library/Frameworks/CoreLocation.framework; sourceTree = SDKROOT; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -29,6 +31,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				B6FC5B2620782288002AF335 /* CoreLocation.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -40,6 +43,7 @@
 			children = (
 				B6FC5B1120782197002AF335 /* iBeacon-Testing */,
 				B6FC5B1020782197002AF335 /* Products */,
+				B6FC5B2420782288002AF335 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -62,6 +66,14 @@
 				B6FC5B1E20782199002AF335 /* Info.plist */,
 			);
 			path = "iBeacon-Testing";
+			sourceTree = "<group>";
+		};
+		B6FC5B2420782288002AF335 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				B6FC5B2520782288002AF335 /* CoreLocation.framework */,
+			);
+			name = Frameworks;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
